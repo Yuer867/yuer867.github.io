@@ -1,22 +1,42 @@
 ---
-layout: page
+layout: default
 title: EMO_Harmonizer
+description: Emotion-Driven Melody Harmonization via Melodic Variation and Functional Representation
 permalink: /emo_harmonizer/
 ---
 
-# EMOPIA
+## Introduction
 
-EMOPIA  (pronounced  ‘yee-mò-pi-uh’)  dataset is a  shared multi-modal (audio and MIDI) database focusing on perceived emotion in **pop piano music**, to facilitate research on  various  tasks  related  to  music  emotion. The dataset contains **1,087** music clips from 387 songs and **clip-level** emotion  labels  annotated by four dedicated  annotators. Since the clips are not restricted to one clip per song, they can also be used for song-level analysis.   
+In this paper, we propose a novel **functional representation** designed as an alternative to [REMI](https://github.com/YatingMusic/remi), 
+a popular event representation that uses note pitch values and chord names to encode symbolic music.
 
-The detail of the methodology  for  building  the  dataset please refer to our paper.      
+<div align="center">
+  <img src="./figures/emo_harmonizer/representation.png" width=1000x>
+  <figcaption><strong>Fig.1</strong> Illustration of (a) REMI and (b) the proposed functional
+representation, differing in note pitch and chord name events.</figcaption>
+</div>
 
-* [Paper on Arxiv](https://arxiv.org/abs/2108.01374)
-* [Dataset on Zenodo](https://zenodo.org/record/5090631#.YPPo-JMzZz8)
-* [Code for classification](https://github.com/SeungHeonDoh/EMOPIA_cls)
-* [Code for generation](https://github.com/annahung31/EMOPIA)
+This new method takes **musical keys** into account, 
+recognizing their significant role in shaping music’s emotional character through major-minor tonality. 
 
+<div align="center">
+  <img src="./figures/emo_harmonizer/key_distribution.png" width=1000x>
+  <figcaption><strong>Fig.2</strong> Key histogram of high/low valence clips from EMOPIA.</figcaption>
+</div>
 
-### Example of the dataset
+Specifically, our method represents both melody notes and chords with Roman numerals relative to musical keys, 
+a **functional format** considering the relationships between notes, chords and scales (major or minor). 
+
+<div align="center">
+  <img src="./figures/emo_harmonizer/switch.png" width=1000x>
+  <figcaption><strong>Fig.3</strong> Illustration of the conversion between letters and Roman numerals in the cases of C major / c minor. The solid line represents a direct one-to-one conversion, while the dotted line stands for a random conversion to either one of them.</figcaption>
+</div>
+
+It also allows for melodic variation with respect to keys and addresses the problem of data scarcity for better emotion modeling. 
+
+A Transformer is employed to harmonize key-adaptable melodies, allowing for keys determined in rule-based or model-based manner.
+
+## Harmonization Samples
 
 <table class="VA-example" style="width:100%" cellspacing="0" cellpadding="0">
   <tr>
@@ -105,28 +125,6 @@ The following table shows the number of clips and their average length for each 
   </tr>
 </table>
 </div>
-
-### Pipeline of data collection
-<div align="left">
-  <img src="./img/pipeline.png" width=1000x>
-  <figcaption><strong>Fig.1</strong></figcaption>
-</div>
-
-
-
-### Dataset Analysis
-
-<div align="left">
-  <img src="./img/feature.png" width=1000x>
-  <figcaption><strong>Fig.2</strong> Violin plots of the distribution in (a) note density, (b) length, and (c) velocity for clips from different classes.</figcaption>
-</div>
-
-<div align="center">
-  <img src="./img/key.png" width=500x>
-  <figcaption><strong>Fig.3</strong> Histogram of the keys (left / right: major / minor 249 keys) for clips from different emotion classes.</figcaption>
-</div>
-
-
 
 ## Emotion Classification
 
