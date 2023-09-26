@@ -3,6 +3,7 @@ layout: default
 title: EMO_Harmonizer
 description: Emotion-Driven Melody Harmonization via Melodic Variation and Functional Representation
 permalink: /emo_harmonizer/
+github_link: https://github.com/Yuer867/EMO_Harmonizer
 ---
 
 ## Introduction
@@ -28,7 +29,7 @@ Specifically, our method represents both melody notes and chords with Roman nume
 a **functional format** considering the relationships between notes, chords and scales (major or minor). 
 
 <div align="center">
-  <img src="../figures/emo_harmonizer/switch.png" width=300 alt="">
+  <img src="../figures/emo_harmonizer/switch.png" width=400 alt="">
   <figcaption><strong>Fig.3</strong> Illustration of the conversion between letters and Roman numerals in the cases of C major / c minor. The solid line represents a direct one-to-one conversion, while the dotted line stands for a random conversion to either one of them.</figcaption>
 </div>
 
@@ -36,27 +37,22 @@ It also allows for melodic variation with respect to keys and addresses the prob
 
 A Transformer is employed to harmonize key-adaptable melodies, allowing for keys determined in rule-based or model-based manner.
 
-## Harmonization Samples
+## Generation Samples
 
-
-
-
-## Method Comparison
-
-* The following are some generated examples for each method:  
-
-<h3>Generate Negative Variants for Positive ones</h3>
+<h3>Negative Variants for Positive Pieces</h3>
 
 <table class="audio-table">
-  <tbody>
-    <tr>
-      <td></td>
-      <td>Original</td>
-      <td>REMI (trans)</td>
-      <td>REMI (rule)</td>
-      <td>Ours (rule)</td>
-      <td>Ours (model)</td>
+  <thead>
+    <tr class="header">
+    <th></th>
+    <th>Original</th>
+    <th>REMI (trans)</th>
+    <th>REMI (rule)</th>
+    <th>Ours (rule)</th>
+    <th>Ours (model)</th>
     </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>Sample#1</td>
       <td><audio controls=""><source src="../assets/audio_samples/emo_harmonizer/Q1__SJQaaRzD-A_0/Q1__SJQaaRzD-A_0.wav" type="audio/mpeg" /></audio></td>
@@ -103,10 +99,19 @@ A Transformer is employed to harmonize key-adaptable melodies, allowing for keys
 </table>
 
 
-
-<h3>Generate Positive Samples for Negative ones</h3>
+<h3>Positive Variants for Negative Pieces</h3>
 
 <table class="audio-table">
+  <thead>
+    <tr class="header">
+    <th></th>
+    <th>Original</th>
+    <th>REMI (trans)</th>
+    <th>REMI (rule)</th>
+    <th>Ours (rule)</th>
+    <th>Ours (model)</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
       <td>Sample#1</td>
@@ -155,14 +160,13 @@ A Transformer is employed to harmonize key-adaptable melodies, allowing for keys
 
 ## Authors and Affiliations
 
-* Hsiao-Tzu (Anna) Hung   
-Research Assistant @ Academia Sinica / MS CSIE student @National Taiwan University   
-r08922a20@csie.ntu.edu.tw  
-[website](https://annahung31.github.io/), [LinkedIn](https://www.linkedin.com/in/hsiao-tzu-%EF%BC%88anna%EF%BC%89-hung-09829513a/).
+* Jingyue Huang  
+Research Assistant @ National Taiwan University / Master student @ New York University  
+jh8522@nyu.edu  
  
 * Yi-Hsuan Yang  
-Chief Music Scientist @ Taiwan AI Labs / Associate Research Fellow @ Academia Sinica  
-affige@gmail.com, yhyang@ailabs.tw  
-[website](http://mac.citi.sinica.edu.tw/~yang/)   
+Professor @ National Taiwan University / Joint-Appointed Researcher @ Academia Sinica  
+yhyangtw@ntu.edu.tw, affige@gmail.com  
+[website](https://affige.github.io/)   
 
 [jekyll-organization]: https://github.com/jekyll
