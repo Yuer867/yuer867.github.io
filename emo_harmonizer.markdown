@@ -47,7 +47,7 @@ the target emotion without changing keys
 * **Ours (rule)**: represent in functional representation; determine keys in rule-based method
 * **Ours (model)**: represent in functional representation; determine keys in model-based method
 
-<h3>Negative Variants for Positive Original Pieces</h3>
+### Negative Variants for Positive Original Pieces
 
 <table class="audio-table">
   <thead>
@@ -107,7 +107,7 @@ the target emotion without changing keys
 </table>
 
 
-<h3>Positive Variants for Negative Original Pieces</h3>
+### Positive Variants for Negative Original Pieces
 
 <table class="audio-table">
   <thead>
