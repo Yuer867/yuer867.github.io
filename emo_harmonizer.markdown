@@ -37,9 +37,9 @@ It also allows for melodic variation with respect to keys and addresses the prob
 
 A Transformer is employed to harmonize key-adaptable melodies, allowing for keys determined in rule-based or model-based manner.
 
-## Generation Samples
+## Harmonization Samples
 
-<h3>Negative Variants for Positive Pieces</h3>
+<h3>Negative Variants for Positive Pieces (Original)</h3>
 
 <table class="audio-table">
   <thead>
@@ -99,7 +99,7 @@ A Transformer is employed to harmonize key-adaptable melodies, allowing for keys
 </table>
 
 
-<h3>Positive Variants for Negative Pieces</h3>
+<h3>Positive Variants for Negative Pieces (Original)</h3>
 
 <table class="audio-table">
   <thead>
