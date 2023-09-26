@@ -39,7 +39,15 @@ A Transformer is employed to harmonize key-adaptable melodies, allowing for keys
 
 ## Harmonization Samples
 
-<h3>Negative Variants for Positive Pieces (Original)</h3>
+We present a selection of samples within the same context as our user study, i.e., 
+**original** pieces as well as their four variants generated with the same melody but the opposite emotion condition. Four variants include:
+* **REMI (trans)**: transpose to C major / c minor and represent in REMI; simply set the emotion event to
+the target emotion without changing keys
+* **REMI (rule)**: transpose to C major / c minor and represent in REMI; determine keys in rule-based method
+* **Ours (rule)**: represent in functional representation; determine keys in rule-based method
+* **Ours (model)**: represent in functional representation; determine keys in model-based method
+
+<h3>Negative Variants for Positive Original Pieces</h3>
 
 <table class="audio-table">
   <thead>
@@ -99,7 +107,7 @@ A Transformer is employed to harmonize key-adaptable melodies, allowing for keys
 </table>
 
 
-<h3>Positive Variants for Negative Pieces (Original)</h3>
+<h3>Positive Variants for Negative Original Pieces</h3>
 
 <table class="audio-table">
   <thead>
