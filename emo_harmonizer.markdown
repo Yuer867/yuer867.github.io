@@ -47,6 +47,34 @@ the target emotion without changing keys
 * **Ours (rule)**: represent in functional representation; determine keys in rule-based method
 * **Ours (model)**: represent in functional representation; determine keys in model-based method
 
+
+### Illustration
+
+<div align="center">
+  <img src="../figures/emo_harmonizer/demo.png" width=700 alt="">
+  <figcaption><strong>Fig.4</strong> Illustration of a re-harmonization example using the method "Ours (rule)". 
+Top: original melody and chord progression from the validation set conveying positive emotion. 
+Bottom: melodic variation with re-harmonized chord progression to convey negative emotion. 
+The downward arrows in the bottom figure indicate the notes shifting down by semitones due to a key change from E major to e minor. 
+This illustration is not an exact match with the following audio for improved clarity in layout. </figcaption>
+</div>
+
+<table class="audio-table">
+  <thead>
+    <tr class="header">
+    <th>Original (Positive)</th>
+    <th>Generated (Negative)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><audio controls=""><source src="../assets/audio_samples/emo_harmonizer/Q1_biROWEwkDQQ_3/Q1_biROWEwkDQQ_3.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="../assets/audio_samples/emo_harmonizer/Q1_biROWEwkDQQ_3/relative_switch.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+
 ### Negative Variants for Positive Original Pieces
 
 <table class="audio-table">
