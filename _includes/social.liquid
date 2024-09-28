@@ -131,3 +131,6 @@
   </div>
   {% include scripts/wechatModal.liquid %}
 {% endif %}
+{% if site.cv %}
+    <a href="{{ '/assets/pdf/' | append: site.cv | relative_url }}"><i class="fas fa-file-pdf""></i></a>
+{% endif %}
