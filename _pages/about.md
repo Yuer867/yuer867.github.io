@@ -16,13 +16,13 @@ social: true # includes social icons at the bottom of the page
 latest_posts: false
 ---
 
-Hi! I am the first-year [Ph.D. student in Computer Science](https://cse.ucsd.edu/) 
+Hi! I am the second-year [Ph.D. student in Computer Science](https://cse.ucsd.edu/) 
 at the UC San Diego, fortunate to be advised by [Prof. Julian McAuley](https://cseweb.ucsd.edu/~jmcauley/). 
-My research interests focus on **Controllable Music Generation** in both symbolic and signal domains and **Music Understanding**.
+My research interests focus on **Controllable Music Generation** in both symbolic and signal domains, **Music Representation Learning** and **Singing Voice Synthesis**.
 
-Since March 2023, I have been working as a research assistant under the wonderful guidance of [Prof. Yi-Hsuan Yang](https://affige.github.io/) 
-at National Taiwan University. 
-Feel free to listen to the demo from our work on [emotion-driven piano performance generation](https://emo-disentanger.github.io/).
+During the summer of 2025, I had the pleasure of interning at Smule, where I explored [the modeling of singing performance styles](https://stylepitcher.github.io/). 
+Earlier, from 2023 to 2024, I worked as a research assistant under the wonderful guidance of [Prof. Yi-Hsuan Yang](https://affige.github.io/) 
+at National Taiwan University, focusing on [emotion-driven music generation](https://emo-disentanger.github.io/).
 
 Before joining UCSD, I earned my [M.S. degree in Data Science](https://cds.nyu.edu/) from New York University (NYU) 
 and my [B.S. degree in Data Science](https://sds.fudan.edu.cn) from Fudan University. 
