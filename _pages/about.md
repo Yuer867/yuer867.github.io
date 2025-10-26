@@ -27,6 +27,6 @@ at National Taiwan University, focusing on [emotion-driven music generation](htt
 Before joining UCSD, I earned my [M.S. degree in Data Science](https://cds.nyu.edu/) from New York University (NYU) 
 and my [B.S. degree in Data Science](https://sds.fudan.edu.cn) from Fudan University. 
 During my time at Fudan, I worked with [Prof. Deqing Yang](https://sds.fudan.edu.cn/c1/56/c22442a508246/page.htm) 
-on **concept extraction and generation for knowledge graphs**.
+on concept extraction and generation for knowledge graphs.
 Additionally, I worked as a research assistant at National University of Singapore with [Prof. Yang You](https://www.comp.nus.edu.sg/~youy/), 
-focusing on **multi-modal question answering**.
+focusing on multi-modal question answering.
